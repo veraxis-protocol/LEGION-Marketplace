@@ -10,6 +10,7 @@ spends, never sees owner secrets and never changes anyone's mission.
   seven-owner end-to-end mission, read-only Judge, live dashboard.
 * `fixtures/` – preregistered 13-world federated case matrix (`FED_WORLD_CASES.json`) and `RUN_MANIFEST.json`.
 * `ui/` – dashboard.
+* `run_market_genesis_demo.ps1` – one-command local demonstration; `release/` – runbook, jury script, eligibility, storyboard.
 
 All prices are synthetic fixture quotes. Manufacturing, qualification and delivery are SIMULATED world effects.
 PayPal Sandbox effects, when present, are labelled REAL_SANDBOX and are shown separately.

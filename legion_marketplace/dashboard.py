@@ -49,7 +49,9 @@ def snapshot(run, worlds=None, negatives=None, comparators=None):
         owners[f"owner:{d.name}"] = {
             "role": cfg.get("role"), "pseudonym": cfg.get("pseudonym"), "mission": (cfg.get("mission") or {}).get("statement"),
             "published_fields": cfg.get("discovery_fields"), "registered_workers": 100,
-            "model_decisions": [{"task": r["data"]["task"], "decision": r["data"].get("decision"),
+            # owner-internal rationale text is NOT shown (it can contain owner-private data); only the decision values
+            "model_decisions": [{"task": r["data"]["task"], "decision": {k: v for k, v in (r["data"].get("decision") or {}).items()
+                                                                          if k != "rationale"},
                                  "response_id": r["data"].get("response_id"), "model": r["data"].get("model")}
                                 for r in md if not r["data"].get("failed")],
             "disclosures": [r["data"] for r in jl(d / "DISCLOSURE_DECISIONS.jsonl")][-12:],
