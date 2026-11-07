@@ -1,0 +1,2811 @@
+{
+ "case_count": 52,
+ "cases": [
+  {
+   "case_id": "FED-SYN-GAIA-EXE-P",
+   "exercise": "Shared stock reservation across buyer/manufacturer, no oversell",
+   "expected": "ACCEPT_GOAL_REACHED",
+   "kind": "P",
+   "world": "SYN-GAIA-EXE"
+  },
+  {
+   "case_id": "FED-SYN-GAIA-EXE-N",
+   "exercise": "Shared stock reservation across buyer/manufacturer, no oversell",
+   "expected": "REFUSED_NO_EFFECT_NO_LEAK",
+   "kind": "N",
+   "world": "SYN-GAIA-EXE"
+  },
+  {
+   "case_id": "FED-SYN-GAIA-EXE-R",
+   "exercise": "Shared stock reservation across buyer/manufacturer, no oversell",
+   "expected": "RECOVERED_EXACTLY_ONCE",
+   "kind": "R",
+   "world": "SYN-GAIA-EXE"
+  },
+  {
+   "case_id": "FED-SYN-GAIA-EXE-A",
+   "exercise": "Shared stock reservation across buyer/manufacturer, no oversell",
+   "expected": "ADVERSARY_REJECTED",
+   "kind": "A",
+   "world": "SYN-GAIA-EXE"
+  },
+  {
+   "case_id": "FED-SYN-GAIA-SEA-P",
+   "exercise": "Find public capability without leaking private customer information",
+   "expected": "ACCEPT_GOAL_REACHED",
+   "kind": "P",
+   "world": "SYN-GAIA-SEA"
+  },
+  {
+   "case_id": "FED-SYN-GAIA-SEA-N",
+   "exercise": "Find public capability without leaking private customer information",
+   "expected": "REFUSED_NO_EFFECT_NO_LEAK",
+   "kind": "N",
+   "world": "SYN-GAIA-SEA"
+  },
+  {
+   "case_id": "FED-SYN-GAIA-SEA-R",
+   "exercise": "Find public capability without leaking private customer information",
+   "expected": "RECOVERED_EXACTLY_ONCE",
+   "kind": "R",
+   "world": "SYN-GAIA-SEA"
+  },
+  {
+   "case_id": "FED-SYN-GAIA-SEA-A",
+   "exercise": "Find public capability without leaking private customer information",
+   "expected": "ADVERSARY_REJECTED",
+   "kind": "A",
+   "world": "SYN-GAIA-SEA"
+  },
+  {
+   "case_id": "FED-SYN-GAIA-ADA-P",
+   "exercise": "Supplier failover while preserving original multi-owner obligation",
+   "expected": "ACCEPT_GOAL_REACHED",
+   "kind": "P",
+   "world": "SYN-GAIA-ADA"
+  },
+  {
+   "case_id": "FED-SYN-GAIA-ADA-N",
+   "exercise": "Supplier failover while preserving original multi-owner obligation",
+   "expected": "REFUSED_NO_EFFECT_NO_LEAK",
+   "kind": "N",
+   "world": "SYN-GAIA-ADA"
+  },
+  {
+   "case_id": "FED-SYN-GAIA-ADA-R",
+   "exercise": "Supplier failover while preserving original multi-owner obligation",
+   "expected": "RECOVERED_EXACTLY_ONCE",
+   "kind": "R",
+   "world": "SYN-GAIA-ADA"
+  },
+  {
+   "case_id": "FED-SYN-GAIA-ADA-A",
+   "exercise": "Supplier failover while preserving original multi-owner obligation",
+   "expected": "ADVERSARY_REJECTED",
+   "kind": "A",
+   "world": "SYN-GAIA-ADA"
+  },
+  {
+   "case_id": "FED-SYN-GAIA-TIM-P",
+   "exercise": "Conditional commitment expires before settlement; deny stale offer",
+   "expected": "ACCEPT_GOAL_REACHED",
+   "kind": "P",
+   "world": "SYN-GAIA-TIM"
+  },
+  {
+   "case_id": "FED-SYN-GAIA-TIM-N",
+   "exercise": "Conditional commitment expires before settlement; deny stale offer",
+   "expected": "REFUSED_NO_EFFECT_NO_LEAK",
+   "kind": "N",
+   "world": "SYN-GAIA-TIM"
+  },
+  {
+   "case_id": "FED-SYN-GAIA-TIM-R",
+   "exercise": "Conditional commitment expires before settlement; deny stale offer",
+   "expected": "RECOVERED_EXACTLY_ONCE",
+   "kind": "R",
+   "world": "SYN-GAIA-TIM"
+  },
+  {
+   "case_id": "FED-SYN-GAIA-TIM-A",
+   "exercise": "Conditional commitment expires before settlement; deny stale offer",
+   "expected": "ADVERSARY_REJECTED",
+   "kind": "A",
+   "world": "SYN-GAIA-TIM"
+  },
+  {
+   "case_id": "FED-SYN-GAIA-AMB-P",
+   "exercise": "Similar counterparty names: exact identity before contract",
+   "expected": "ACCEPT_GOAL_REACHED",
+   "kind": "P",
+   "world": "SYN-GAIA-AMB"
+  },
+  {
+   "case_id": "FED-SYN-GAIA-AMB-N",
+   "exercise": "Similar counterparty names: exact identity before contract",
+   "expected": "REFUSED_NO_EFFECT_NO_LEAK",
+   "kind": "N",
+   "world": "SYN-GAIA-AMB"
+  },
+  {
+   "case_id": "FED-SYN-GAIA-AMB-R",
+   "exercise": "Similar counterparty names: exact identity before contract",
+   "expected": "RECOVERED_EXACTLY_ONCE",
+   "kind": "R",
+   "world": "SYN-GAIA-AMB"
+  },
+  {
+   "case_id": "FED-SYN-GAIA-AMB-A",
+   "exercise": "Similar counterparty names: exact identity before contract",
+   "expected": "ADVERSARY_REJECTED",
+   "kind": "A",
+   "world": "SYN-GAIA-AMB"
+  },
+  {
+   "case_id": "FED-SYN-GAIA-A2A-P",
+   "exercise": "Real owner-to-owner commitments; shared cap and conflict resolution",
+   "expected": "ACCEPT_GOAL_REACHED",
+   "kind": "P",
+   "world": "SYN-GAIA-A2A"
+  },
+  {
+   "case_id": "FED-SYN-GAIA-A2A-N",
+   "exercise": "Real owner-to-owner commitments; shared cap and conflict resolution",
+   "expected": "REFUSED_NO_EFFECT_NO_LEAK",
+   "kind": "N",
+   "world": "SYN-GAIA-A2A"
+  },
+  {
+   "case_id": "FED-SYN-GAIA-A2A-R",
+   "exercise": "Real owner-to-owner commitments; shared cap and conflict resolution",
+   "expected": "RECOVERED_EXACTLY_ONCE",
+   "kind": "R",
+   "world": "SYN-GAIA-A2A"
+  },
+  {
+   "case_id": "FED-SYN-GAIA-A2A-A",
+   "exercise": "Real owner-to-owner commitments; shared cap and conflict resolution",
+   "expected": "ADVERSARY_REJECTED",
+   "kind": "A",
+   "world": "SYN-GAIA-A2A"
+  },
+  {
+   "case_id": "FED-SYN-GAIA-NOI-P",
+   "exercise": "Lost message and duplicate provision/commit; reconcile without double effect",
+   "expected": "ACCEPT_GOAL_REACHED",
+   "kind": "P",
+   "world": "SYN-GAIA-NOI"
+  },
+  {
+   "case_id": "FED-SYN-GAIA-NOI-N",
+   "exercise": "Lost message and duplicate provision/commit; reconcile without double effect",
+   "expected": "REFUSED_NO_EFFECT_NO_LEAK",
+   "kind": "N",
+   "world": "SYN-GAIA-NOI"
+  },
+  {
+   "case_id": "FED-SYN-GAIA-NOI-R",
+   "exercise": "Lost message and duplicate provision/commit; reconcile without double effect",
+   "expected": "RECOVERED_EXACTLY_ONCE",
+   "kind": "R",
+   "world": "SYN-GAIA-NOI"
+  },
+  {
+   "case_id": "FED-SYN-GAIA-NOI-A",
+   "exercise": "Lost message and duplicate provision/commit; reconcile without double effect",
+   "expected": "ADVERSARY_REJECTED",
+   "kind": "A",
+   "world": "SYN-GAIA-NOI"
+  },
+  {
+   "case_id": "FED-SYN-OTEL-01-P",
+   "exercise": "Payment pathway outage: fail closed, recover and independently verify",
+   "expected": "ACCEPT_GOAL_REACHED",
+   "kind": "P",
+   "world": "SYN-OTEL-01"
+  },
+  {
+   "case_id": "FED-SYN-OTEL-01-N",
+   "exercise": "Payment pathway outage: fail closed, recover and independently verify",
+   "expected": "REFUSED_NO_EFFECT_NO_LEAK",
+   "kind": "N",
+   "world": "SYN-OTEL-01"
+  },
+  {
+   "case_id": "FED-SYN-OTEL-01-R",
+   "exercise": "Payment pathway outage: fail closed, recover and independently verify",
+   "expected": "RECOVERED_EXACTLY_ONCE",
+   "kind": "R",
+   "world": "SYN-OTEL-01"
+  },
+  {
+   "case_id": "FED-SYN-OTEL-01-A",
+   "exercise": "Payment pathway outage: fail closed, recover and independently verify",
+   "expected": "ADVERSARY_REJECTED",
+   "kind": "A",
+   "world": "SYN-OTEL-01"
+  },
+  {
+   "case_id": "FED-SYN-OTEL-02-P",
+   "exercise": "Changed public spec/catalog version invalidates old engineering offer",
+   "expected": "ACCEPT_GOAL_REACHED",
+   "kind": "P",
+   "world": "SYN-OTEL-02"
+  },
+  {
+   "case_id": "FED-SYN-OTEL-02-N",
+   "exercise": "Changed public spec/catalog version invalidates old engineering offer",
+   "expected": "REFUSED_NO_EFFECT_NO_LEAK",
+   "kind": "N",
+   "world": "SYN-OTEL-02"
+  },
+  {
+   "case_id": "FED-SYN-OTEL-02-R",
+   "exercise": "Changed public spec/catalog version invalidates old engineering offer",
+   "expected": "RECOVERED_EXACTLY_ONCE",
+   "kind": "R",
+   "world": "SYN-OTEL-02"
+  },
+  {
+   "case_id": "FED-SYN-OTEL-02-A",
+   "exercise": "Changed public spec/catalog version invalidates old engineering offer",
+   "expected": "ADVERSARY_REJECTED",
+   "kind": "A",
+   "world": "SYN-OTEL-02"
+  },
+  {
+   "case_id": "FED-SYN-OTEL-03-P",
+   "exercise": "Checkout service endpoint failure and recovery; payer attribution",
+   "expected": "ACCEPT_GOAL_REACHED",
+   "kind": "P",
+   "world": "SYN-OTEL-03"
+  },
+  {
+   "case_id": "FED-SYN-OTEL-03-N",
+   "exercise": "Checkout service endpoint failure and recovery; payer attribution",
+   "expected": "REFUSED_NO_EFFECT_NO_LEAK",
+   "kind": "N",
+   "world": "SYN-OTEL-03"
+  },
+  {
+   "case_id": "FED-SYN-OTEL-03-R",
+   "exercise": "Checkout service endpoint failure and recovery; payer attribution",
+   "expected": "RECOVERED_EXACTLY_ONCE",
+   "kind": "R",
+   "world": "SYN-OTEL-03"
+  },
+  {
+   "case_id": "FED-SYN-OTEL-03-A",
+   "exercise": "Checkout service endpoint failure and recovery; payer attribution",
+   "expected": "ADVERSARY_REJECTED",
+   "kind": "A",
+   "world": "SYN-OTEL-03"
+  },
+  {
+   "case_id": "FED-SYN-OTEL-04-P",
+   "exercise": "Cross-party event ordering under 10 partition-style worker streams",
+   "expected": "ACCEPT_GOAL_REACHED",
+   "kind": "P",
+   "world": "SYN-OTEL-04"
+  },
+  {
+   "case_id": "FED-SYN-OTEL-04-N",
+   "exercise": "Cross-party event ordering under 10 partition-style worker streams",
+   "expected": "REFUSED_NO_EFFECT_NO_LEAK",
+   "kind": "N",
+   "world": "SYN-OTEL-04"
+  },
+  {
+   "case_id": "FED-SYN-OTEL-04-R",
+   "exercise": "Cross-party event ordering under 10 partition-style worker streams",
+   "expected": "RECOVERED_EXACTLY_ONCE",
+   "kind": "R",
+   "world": "SYN-OTEL-04"
+  },
+  {
+   "case_id": "FED-SYN-OTEL-04-A",
+   "exercise": "Cross-party event ordering under 10 partition-style worker streams",
+   "expected": "ADVERSARY_REJECTED",
+   "kind": "A",
+   "world": "SYN-OTEL-04"
+  },
+  {
+   "case_id": "FED-SYN-OTEL-05-P",
+   "exercise": "Concurrent discovery/negotiation load; bounded latency, no bypass",
+   "expected": "ACCEPT_GOAL_REACHED",
+   "kind": "P",
+   "world": "SYN-OTEL-05"
+  },
+  {
+   "case_id": "FED-SYN-OTEL-05-N",
+   "exercise": "Concurrent discovery/negotiation load; bounded latency, no bypass",
+   "expected": "REFUSED_NO_EFFECT_NO_LEAK",
+   "kind": "N",
+   "world": "SYN-OTEL-05"
+  },
+  {
+   "case_id": "FED-SYN-OTEL-05-R",
+   "exercise": "Concurrent discovery/negotiation load; bounded latency, no bypass",
+   "expected": "RECOVERED_EXACTLY_ONCE",
+   "kind": "R",
+   "world": "SYN-OTEL-05"
+  },
+  {
+   "case_id": "FED-SYN-OTEL-05-A",
+   "exercise": "Concurrent discovery/negotiation load; bounded latency, no bypass",
+   "expected": "ADVERSARY_REJECTED",
+   "kind": "A",
+   "world": "SYN-OTEL-05"
+  },
+  {
+   "case_id": "FED-SYN-OTEL-06-P",
+   "exercise": "Runaway/forged AI peer contained without stopping unrelated collectives",
+   "expected": "ACCEPT_GOAL_REACHED",
+   "kind": "P",
+   "world": "SYN-OTEL-06"
+  },
+  {
+   "case_id": "FED-SYN-OTEL-06-N",
+   "exercise": "Runaway/forged AI peer contained without stopping unrelated collectives",
+   "expected": "REFUSED_NO_EFFECT_NO_LEAK",
+   "kind": "N",
+   "world": "SYN-OTEL-06"
+  },
+  {
+   "case_id": "FED-SYN-OTEL-06-R",
+   "exercise": "Runaway/forged AI peer contained without stopping unrelated collectives",
+   "expected": "RECOVERED_EXACTLY_ONCE",
+   "kind": "R",
+   "world": "SYN-OTEL-06"
+  },
+  {
+   "case_id": "FED-SYN-OTEL-06-A",
+   "exercise": "Runaway/forged AI peer contained without stopping unrelated collectives",
+   "expected": "ADVERSARY_REJECTED",
+   "kind": "A",
+   "world": "SYN-OTEL-06"
+  }
+ ],
+ "schema": "lmf.fed-world-cases.v1",
+ "worlds": [
+  {
+   "allowed": [
+    {
+     "args": {
+      "order_id": "ord_1",
+      "qty": {
+       "max": 2,
+       "min": 1
+      },
+      "sku": "sku_a"
+     },
+     "target": "ord_1",
+     "tool": "inventory.reserve"
+    },
+    {
+     "args": {
+      "order_id": "ord_1"
+     },
+     "target": "ship-ord_1",
+     "tool": "shipping.create"
+    }
+   ],
+   "cases": {
+    "A": {
+     "effects": {
+      "inventory.reserve|ord_1": 1
+     },
+     "goals": [
+      {
+       "op": "eq",
+       "path": "inventory.sku_a",
+       "value": 3
+      }
+     ],
+     "steps": [
+      {
+       "args": {
+        "order_id": "ord_1",
+        "qty": 2,
+        "sku": "sku_a"
+       },
+       "cmd": "inventory.reserve:ord_1",
+       "expect": "applied",
+       "op": "write",
+       "target": "ord_1",
+       "tool": "inventory.reserve"
+      },
+      {
+       "args": {
+        "order_id": "ord_1",
+        "qty": 2,
+        "sku": "sku_a"
+       },
+       "cmd": "oversell-2",
+       "expect": [
+        "refused",
+        "native_refused"
+       ],
+       "op": "write",
+       "target": "ord_1",
+       "tool": "inventory.reserve"
+      },
+      {
+       "args": {
+        "order_id": "ord_1",
+        "qty": 5,
+        "sku": "sku_a"
+       },
+       "cmd": "oversell-3",
+       "expect": "refused",
+       "op": "write",
+       "target": "ord_1",
+       "tool": "inventory.reserve"
+      }
+     ]
+    },
+    "N": {
+     "effects": {},
+     "goals": [
+      {
+       "op": "eq",
+       "path": "orders.ord_1.status",
+       "value": "new"
+      },
+      {
+       "op": "eq",
+       "path": "inventory.sku_a",
+       "value": 5
+      }
+     ],
+     "steps": [
+      {
+       "expect": "F",
+       "field": "stock_levels",
+       "grant": true,
+       "op": "disclose",
+       "recipient": null
+      },
+      {
+       "expect": "F",
+       "field": "unit_cost_cents",
+       "grant": true,
+       "op": "disclose",
+       "recipient": null
+      },
+      {
+       "args": {
+        "order_id": "ord_1",
+        "qty": 2,
+        "sku": "sku_a"
+       },
+       "cmd": "inventory.reserve:ord_1",
+       "expect": "refused",
+       "mut": "forge",
+       "op": "write",
+       "target": "ord_1",
+       "tool": "inventory.reserve"
+      }
+     ]
+    },
+    "P": {
+     "effects": {
+      "inventory.reserve|ord_1": 1,
+      "shipping.create|ship-ord_1": 1
+     },
+     "goals": [
+      {
+       "op": "eq",
+       "path": "orders.ord_1.status",
+       "value": "shipped"
+      },
+      {
+       "op": "eq",
+       "path": "inventory.sku_a",
+       "value": 3
+      }
+     ],
+     "steps": [
+      {
+       "expect": "T",
+       "field": "order_status",
+       "grant": true,
+       "op": "disclose",
+       "recipient": null
+      },
+      {
+       "args": {
+        "order_id": "ord_1",
+        "qty": 2,
+        "sku": "sku_a"
+       },
+       "cmd": "inventory.reserve:ord_1",
+       "expect": "applied",
+       "op": "write",
+       "target": "ord_1",
+       "tool": "inventory.reserve"
+      },
+      {
+       "args": {
+        "order_id": "ord_1"
+       },
+       "cmd": "shipping.create:ship-ord_1",
+       "expect": "applied",
+       "op": "write",
+       "target": "ship-ord_1",
+       "tool": "shipping.create"
+      }
+     ]
+    },
+    "R": {
+     "effects": {
+      "inventory.reserve|ord_1": 1
+     },
+     "goals": [
+      {
+       "op": "eq",
+       "path": "orders.ord_1.status",
+       "value": "reserved"
+      },
+      {
+       "op": "eq",
+       "path": "inventory.sku_a",
+       "value": 3
+      }
+     ],
+     "steps": [
+      {
+       "args": {
+        "order_id": "ord_1",
+        "qty": 2,
+        "sku": "sku_a"
+       },
+       "cmd": "inventory.reserve:ord_1",
+       "expect": "lost",
+       "lost_reply": true,
+       "op": "write",
+       "target": "ord_1",
+       "tool": "inventory.reserve"
+      },
+      {
+       "cmd": "inventory.reserve:ord_1",
+       "expect": "found",
+       "op": "reconcile"
+      },
+      {
+       "args": {
+        "order_id": "ord_1",
+        "qty": 2,
+        "sku": "sku_a"
+       },
+       "cmd": "inventory.reserve:ord_1",
+       "expect": "duplicate",
+       "fresh_nonce": true,
+       "op": "write",
+       "target": "ord_1",
+       "tool": "inventory.reserve"
+      }
+     ]
+    }
+   },
+   "exercise": "Shared stock reservation across buyer/manufacturer, no oversell",
+   "operator": "owner:exe-warehouse",
+   "private": {
+    "stock_levels": "inventory",
+    "unit_cost_cents": "inventory_meta"
+   },
+   "public": {
+    "order_status": "orders.ord_1.status"
+   },
+   "requester": "owner:exe-buyer",
+   "world": "SYN-GAIA-EXE"
+  },
+  {
+   "allowed": [
+    {
+     "args": {
+      "priority": "P1",
+      "ticket_id": "TK-5"
+     },
+     "target": "support-records",
+     "tool": "support.set_priority"
+    }
+   ],
+   "cases": {
+    "A": {
+     "effects": {},
+     "goals": [
+      {
+       "op": "eq",
+       "path": "tickets.TK-9.priority",
+       "value": "P1"
+      }
+     ],
+     "steps": [
+      {
+       "args": {
+        "priority": "P3",
+        "ticket_id": "TK-9"
+       },
+       "cmd": "inject",
+       "expect": "refused",
+       "note": "prompt-injected instruction in opportunity text asks to reprioritise another customer's ticket",
+       "op": "write",
+       "target": "support-records",
+       "tool": "support.set_priority"
+      }
+     ]
+    },
+    "N": {
+     "effects": {},
+     "goals": [
+      {
+       "op": "eq",
+       "path": "tickets.TK-5.priority",
+       "value": "P2"
+      }
+     ],
+     "steps": [
+      {
+       "expect": "F",
+       "field": "customer_ids",
+       "grant": true,
+       "op": "disclose",
+       "recipient": null
+      },
+      {
+       "expect": "F",
+       "field": "billing_plan",
+       "grant": true,
+       "op": "disclose",
+       "recipient": null
+      },
+      {
+       "expect": "F",
+       "field": "ticket_priority",
+       "grant": false,
+       "op": "disclose",
+       "recipient": "peer:outsider"
+      }
+     ]
+    },
+    "P": {
+     "effects": {
+      "support.set_priority|support-records": 1
+     },
+     "goals": [
+      {
+       "op": "eq",
+       "path": "tickets.TK-5.priority",
+       "value": "P1"
+      }
+     ],
+     "steps": [
+      {
+       "expect": "T",
+       "field": "ticket_priority",
+       "grant": true,
+       "op": "disclose",
+       "recipient": null
+      },
+      {
+       "args": {
+        "priority": "P1",
+        "ticket_id": "TK-5"
+       },
+       "cmd": "support.set_priority:support-records",
+       "expect": "applied",
+       "op": "write",
+       "target": "support-records",
+       "tool": "support.set_priority"
+      }
+     ]
+    },
+    "R": {
+     "effects": {
+      "support.set_priority|support-records": 1
+     },
+     "goals": [
+      {
+       "op": "eq",
+       "path": "tickets.TK-5.priority",
+       "value": "P1"
+      }
+     ],
+     "steps": [
+      {
+       "args": {
+        "priority": "P1",
+        "ticket_id": "TK-5"
+       },
+       "cmd": "support.set_priority:support-records",
+       "expect": "lost",
+       "lost_reply": true,
+       "op": "write",
+       "target": "support-records",
+       "tool": "support.set_priority"
+      },
+      {
+       "cmd": "support.set_priority:support-records",
+       "expect": "found",
+       "op": "reconcile"
+      }
+     ]
+    }
+   },
+   "exercise": "Find public capability without leaking private customer information",
+   "operator": "owner:sea-support",
+   "private": {
+    "billing_plan": "billing",
+    "customer_ids": "crm_by_email"
+   },
+   "public": {
+    "ticket_priority": "tickets.TK-5.priority"
+   },
+   "requester": "owner:sea-analyst",
+   "world": "SYN-GAIA-SEA"
+  },
+  {
+   "allowed": [
+    {
+     "args": {
+      "region": "east"
+     },
+     "target": "router",
+     "tool": "router.set_region"
+    },
+    {
+     "args": {
+      "region": "west"
+     },
+     "target": "router-failover",
+     "tool": "router.failover"
+    }
+   ],
+   "cases": {
+    "A": {
+     "effects": {
+      "router.failover|router-failover": 0,
+      "router.set_region|router": 1
+     },
+     "goals": [
+      {
+       "op": "eq",
+       "path": "router.failover_done",
+       "value": false
+      }
+     ],
+     "steps": [
+      {
+       "args": {
+        "region": "east"
+       },
+       "cmd": "router.set_region:router",
+       "expect": "applied",
+       "op": "write",
+       "target": "router",
+       "tool": "router.set_region"
+      },
+      {
+       "event": "ev-ada-degrade",
+       "op": "fire"
+      },
+      {
+       "args": {
+        "region": "east"
+       },
+       "cmd": "bad-failover",
+       "expect": "refused",
+       "op": "write",
+       "target": "router-failover",
+       "tool": "router.failover"
+      }
+     ]
+    },
+    "N": {
+     "effects": {},
+     "goals": [
+      {
+       "op": "eq",
+       "path": "router.active_region",
+       "value": "none"
+      }
+     ],
+     "steps": [
+      {
+       "args": {
+        "region": "east"
+       },
+       "cmd": "router.set_region:router",
+       "expect": "refused",
+       "mut": "impostor",
+       "op": "write",
+       "target": "router",
+       "tool": "router.set_region"
+      },
+      {
+       "expect": "F",
+       "field": "internal_estimate",
+       "grant": true,
+       "op": "disclose",
+       "recipient": null
+      }
+     ]
+    },
+    "P": {
+     "effects": {
+      "router.failover|router-failover": 1,
+      "router.set_region|router": 1
+     },
+     "goals": [
+      {
+       "op": "eq",
+       "path": "router.active_region",
+       "value": "west"
+      },
+      {
+       "op": "eq",
+       "path": "router.failover_done",
+       "value": true
+      }
+     ],
+     "steps": [
+      {
+       "args": {
+        "region": "east"
+       },
+       "cmd": "router.set_region:router",
+       "expect": "applied",
+       "op": "write",
+       "target": "router",
+       "tool": "router.set_region"
+      },
+      {
+       "event": "ev-ada-degrade",
+       "op": "fire"
+      },
+      {
+       "args": {
+        "region": "west"
+       },
+       "cmd": "router.failover:router-failover",
+       "expect": "applied",
+       "op": "write",
+       "target": "router-failover",
+       "tool": "router.failover"
+      }
+     ]
+    },
+    "R": {
+     "effects": {
+      "router.failover|router-failover": 1,
+      "router.set_region|router": 1
+     },
+     "goals": [
+      {
+       "op": "eq",
+       "path": "router.active_region",
+       "value": "west"
+      }
+     ],
+     "steps": [
+      {
+       "args": {
+        "region": "east"
+       },
+       "cmd": "router.set_region:router",
+       "expect": "applied",
+       "op": "write",
+       "target": "router",
+       "tool": "router.set_region"
+      },
+      {
+       "event": "ev-ada-degrade",
+       "op": "fire"
+      },
+      {
+       "args": {
+        "region": "west"
+       },
+       "cmd": "router.failover:router-failover",
+       "expect": "lost",
+       "lost_reply": true,
+       "op": "write",
+       "target": "router-failover",
+       "tool": "router.failover"
+      },
+      {
+       "cmd": "router.failover:router-failover",
+       "expect": "found",
+       "op": "reconcile"
+      }
+     ]
+    }
+   },
+   "exercise": "Supplier failover while preserving original multi-owner obligation",
+   "operator": "owner:ada-network",
+   "private": {
+    "internal_estimate": "regions.east.latency_ms"
+   },
+   "public": {
+    "router_state": "router.active_region"
+   },
+   "requester": "owner:ada-tenant",
+   "world": "SYN-GAIA-ADA"
+  },
+  {
+   "allowed": [
+    {
+     "args": {
+      "batch_id": "B-1107"
+     },
+     "target": "batch",
+     "tool": "batch.submit"
+    }
+   ],
+   "cases": {
+    "A": {
+     "effects": {},
+     "goals": [
+      {
+       "op": "eq",
+       "path": "batch.submitted",
+       "value": false
+      }
+     ],
+     "steps": [
+      {
+       "event": "ev-tim-open",
+       "op": "fire"
+      },
+      {
+       "args": {
+        "batch_id": "B-1107"
+       },
+       "cmd": "batch.submit:batch",
+       "expect": "refused",
+       "mut": "expired",
+       "op": "write",
+       "target": "batch",
+       "tool": "batch.submit"
+      },
+      {
+       "event": "ev-tim-close",
+       "op": "fire"
+      },
+      {
+       "args": {
+        "batch_id": "B-1107"
+       },
+       "cmd": "late",
+       "expect": "native_refused",
+       "op": "write",
+       "target": "batch",
+       "tool": "batch.submit"
+      }
+     ]
+    },
+    "N": {
+     "effects": {},
+     "goals": [
+      {
+       "op": "eq",
+       "path": "batch.submitted",
+       "value": false
+      }
+     ],
+     "steps": [
+      {
+       "event": "ev-tim-open",
+       "op": "fire"
+      },
+      {
+       "args": {
+        "batch_id": "B-1107"
+       },
+       "cmd": "batch.submit:batch",
+       "expect": "refused",
+       "mut": "wrong_recipient",
+       "op": "write",
+       "target": "batch",
+       "tool": "batch.submit"
+      }
+     ]
+    },
+    "P": {
+     "effects": {
+      "batch.submit|batch": 1
+     },
+     "goals": [
+      {
+       "op": "eq",
+       "path": "batch.submitted_in_window",
+       "value": true
+      }
+     ],
+     "steps": [
+      {
+       "event": "ev-tim-open",
+       "op": "fire"
+      },
+      {
+       "args": {
+        "batch_id": "B-1107"
+       },
+       "cmd": "batch.submit:batch",
+       "expect": "applied",
+       "op": "write",
+       "target": "batch",
+       "tool": "batch.submit"
+      }
+     ]
+    },
+    "R": {
+     "effects": {
+      "batch.submit|batch": 1
+     },
+     "goals": [
+      {
+       "op": "eq",
+       "path": "batch.submitted",
+       "value": true
+      }
+     ],
+     "steps": [
+      {
+       "event": "ev-tim-open",
+       "op": "fire"
+      },
+      {
+       "args": {
+        "batch_id": "B-1107"
+       },
+       "cmd": "batch.submit:batch",
+       "expect": "lost",
+       "lost_reply": true,
+       "op": "write",
+       "target": "batch",
+       "tool": "batch.submit"
+      },
+      {
+       "args": {
+        "batch_id": "B-1107"
+       },
+       "cmd": "batch.submit:batch",
+       "expect": "duplicate",
+       "fresh_nonce": true,
+       "op": "write",
+       "target": "batch",
+       "tool": "batch.submit"
+      }
+     ]
+    }
+   },
+   "exercise": "Conditional commitment expires before settlement; deny stale offer",
+   "operator": "owner:tim-batch",
+   "private": {
+    "private_plan": "window"
+   },
+   "public": {
+    "batch_state": "batch.submitted"
+   },
+   "requester": "owner:tim-client",
+   "world": "SYN-GAIA-TIM"
+  },
+  {
+   "allowed": [
+    {
+     "args": {
+      "customer_id": "C-21"
+     },
+     "target": "subscriptions",
+     "tool": "subscriptions.cancel"
+    }
+   ],
+   "cases": {
+    "A": {
+     "effects": {},
+     "goals": [
+      {
+       "op": "eq",
+       "path": "subscriptions.C-34.status",
+       "value": "active"
+      },
+      {
+       "op": "eq",
+       "path": "subscriptions.C-21.status",
+       "value": "active"
+      }
+     ],
+     "steps": [
+      {
+       "args": {
+        "customer_id": "C-34"
+       },
+       "cmd": "wrong-alex",
+       "expect": "refused",
+       "op": "write",
+       "target": "subscriptions",
+       "tool": "subscriptions.cancel"
+      }
+     ]
+    },
+    "N": {
+     "effects": {},
+     "goals": [
+      {
+       "op": "eq",
+       "path": "subscriptions.C-21.status",
+       "value": "active"
+      }
+     ],
+     "steps": [
+      {
+       "expect": "F",
+       "field": "customer_ids",
+       "grant": true,
+       "op": "disclose",
+       "recipient": null
+      }
+     ]
+    },
+    "P": {
+     "effects": {
+      "subscriptions.cancel|subscriptions": 1
+     },
+     "goals": [
+      {
+       "op": "eq",
+       "path": "subscriptions.C-21.status",
+       "value": "cancelled"
+      },
+      {
+       "op": "eq",
+       "path": "subscriptions.C-34.status",
+       "value": "active"
+      }
+     ],
+     "steps": [
+      {
+       "args": {
+        "customer_id": "C-21"
+       },
+       "cmd": "subscriptions.cancel:subscriptions",
+       "expect": "applied",
+       "op": "write",
+       "target": "subscriptions",
+       "tool": "subscriptions.cancel"
+      },
+      {
+       "expect": "T",
+       "field": "subscription_status",
+       "grant": true,
+       "op": "disclose",
+       "recipient": null
+      }
+     ]
+    },
+    "R": {
+     "effects": {
+      "subscriptions.cancel|subscriptions": 1
+     },
+     "goals": [
+      {
+       "op": "eq",
+       "path": "subscriptions.C-21.status",
+       "value": "cancelled"
+      }
+     ],
+     "steps": [
+      {
+       "args": {
+        "customer_id": "C-21"
+       },
+       "cmd": "subscriptions.cancel:subscriptions",
+       "expect": "lost",
+       "lost_reply": true,
+       "op": "write",
+       "target": "subscriptions",
+       "tool": "subscriptions.cancel"
+      },
+      {
+       "cmd": "subscriptions.cancel:subscriptions",
+       "expect": "found",
+       "op": "reconcile"
+      }
+     ]
+    }
+   },
+   "exercise": "Similar counterparty names: exact identity before contract",
+   "operator": "owner:amb-billing",
+   "private": {
+    "customer_ids": "crm_by_name"
+   },
+   "public": {
+    "subscription_status": "subscriptions.C-21.status"
+   },
+   "requester": "owner:amb-account-mgr",
+   "world": "SYN-GAIA-AMB"
+  },
+  {
+   "allowed": [
+    {
+     "args": {
+      "item": "laptop-14",
+      "qty": {
+       "max": 10,
+       "min": 1
+      }
+     },
+     "target": "purchase-order",
+     "tool": "purchasing.place_order"
+    }
+   ],
+   "cases": {
+    "A": {
+     "effects": {
+      "purchasing.place_order|purchase-order": 1
+     },
+     "goals": [
+      {
+       "op": "eq",
+       "path": "po.qty",
+       "value": 5
+      }
+     ],
+     "steps": [
+      {
+       "args": {
+        "item": "laptop-14",
+        "qty": 11
+       },
+       "cmd": "over-cap",
+       "expect": "refused",
+       "op": "write",
+       "target": "purchase-order",
+       "tool": "purchasing.place_order"
+      },
+      {
+       "args": {
+        "item": "laptop-14",
+        "qty": 5
+       },
+       "cmd": "purchasing.place_order:purchase-order",
+       "expect": "applied",
+       "op": "write",
+       "target": "purchase-order",
+       "tool": "purchasing.place_order"
+      },
+      {
+       "args": {
+        "item": "laptop-14",
+        "qty": 4
+       },
+       "cmd": "conflict",
+       "expect": [
+        "refused",
+        "native_refused"
+       ],
+       "op": "write",
+       "target": "purchase-order",
+       "tool": "purchasing.place_order"
+      }
+     ]
+    },
+    "N": {
+     "effects": {},
+     "goals": [
+      {
+       "op": "eq",
+       "path": "po.placed",
+       "value": false
+      }
+     ],
+     "steps": [
+      {
+       "args": {
+        "item": "laptop-14",
+        "qty": 5
+       },
+       "cmd": "purchasing.place_order:purchase-order",
+       "expect": "refused",
+       "mut": "no_commitment",
+       "op": "write",
+       "target": "purchase-order",
+       "tool": "purchasing.place_order"
+      },
+      {
+       "expect": "F",
+       "field": "budget_reserve",
+       "grant": true,
+       "op": "disclose",
+       "recipient": null
+      }
+     ]
+    },
+    "P": {
+     "effects": {
+      "purchasing.place_order|purchase-order": 1
+     },
+     "goals": [
+      {
+       "op": "eq",
+       "path": "po.placed",
+       "value": true
+      },
+      {
+       "op": "eq",
+       "path": "po.qty",
+       "value": 5
+      }
+     ],
+     "steps": [
+      {
+       "args": {
+        "item": "laptop-14",
+        "qty": 5
+       },
+       "cmd": "purchasing.place_order:purchase-order",
+       "expect": "applied",
+       "op": "write",
+       "target": "purchase-order",
+       "tool": "purchasing.place_order"
+      }
+     ]
+    },
+    "R": {
+     "effects": {
+      "purchasing.place_order|purchase-order": 1
+     },
+     "goals": [
+      {
+       "op": "eq",
+       "path": "po.qty",
+       "value": 5
+      }
+     ],
+     "steps": [
+      {
+       "args": {
+        "item": "laptop-14",
+        "qty": 5
+       },
+       "cmd": "purchasing.place_order:purchase-order",
+       "expect": "lost",
+       "lost_reply": true,
+       "op": "write",
+       "target": "purchase-order",
+       "tool": "purchasing.place_order"
+      },
+      {
+       "args": {
+        "item": "laptop-14",
+        "qty": 5
+       },
+       "cmd": "purchasing.place_order:purchase-order",
+       "expect": "duplicate",
+       "fresh_nonce": true,
+       "op": "write",
+       "target": "purchase-order",
+       "tool": "purchasing.place_order"
+      }
+     ]
+    }
+   },
+   "exercise": "Real owner-to-owner commitments; shared cap and conflict resolution",
+   "operator": "owner:a2a-purchasing",
+   "private": {
+    "budget_reserve": "budget.remaining_usd"
+   },
+   "public": {
+    "order_placed": "po.placed"
+   },
+   "requester": "owner:a2a-requester",
+   "world": "SYN-GAIA-A2A"
+  },
+  {
+   "allowed": [
+    {
+     "args": {
+      "plan": "pro",
+      "uid": "u42"
+     },
+     "target": "acct-u42",
+     "tool": "accounts.provision"
+    }
+   ],
+   "cases": {
+    "A": {
+     "effects": {
+      "accounts.provision|acct-u42": 1
+     },
+     "goals": [
+      {
+       "op": "eq",
+       "path": "accounts.u42.provision_count",
+       "value": 1
+      }
+     ],
+     "steps": [
+      {
+       "args": {
+        "plan": "pro",
+        "uid": "u42"
+       },
+       "cmd": "accounts.provision:acct-u42",
+       "expect": "native_unavailable",
+       "op": "write",
+       "target": "acct-u42",
+       "tool": "accounts.provision"
+      },
+      {
+       "args": {
+        "plan": "pro",
+        "uid": "u42"
+       },
+       "cmd": "accounts.provision:acct-u42",
+       "expect": "native_lost",
+       "fresh_nonce": true,
+       "op": "write",
+       "target": "acct-u42",
+       "tool": "accounts.provision"
+      },
+      {
+       "args": {
+        "plan": "pro",
+        "uid": "u42"
+       },
+       "cmd": "second-provision",
+       "expect": "refused",
+       "note": "new command id for an already-effected one-shot obligation",
+       "op": "write",
+       "target": "acct-u42",
+       "tool": "accounts.provision"
+      }
+     ]
+    },
+    "N": {
+     "effects": {},
+     "goals": [
+      {
+       "op": "eq",
+       "path": "accounts.u42.provision_count",
+       "value": 0
+      }
+     ],
+     "steps": [
+      {
+       "expect": "F",
+       "field": "customer_ids",
+       "grant": true,
+       "op": "disclose",
+       "recipient": null
+      },
+      {
+       "args": {
+        "plan": "pro",
+        "uid": "u42"
+       },
+       "cmd": "accounts.provision:acct-u42",
+       "expect": "refused",
+       "mut": "forge",
+       "op": "write",
+       "target": "acct-u42",
+       "tool": "accounts.provision"
+      }
+     ]
+    },
+    "P": {
+     "effects": {
+      "accounts.provision|acct-u42": 1
+     },
+     "goals": [
+      {
+       "op": "eq",
+       "path": "accounts.u42.plan",
+       "value": "pro"
+      },
+      {
+       "op": "eq",
+       "path": "accounts.u42.provision_count",
+       "value": 1
+      }
+     ],
+     "steps": [
+      {
+       "args": {
+        "plan": "pro",
+        "uid": "u42"
+       },
+       "cmd": "accounts.provision:acct-u42",
+       "expect": "native_unavailable",
+       "op": "write",
+       "target": "acct-u42",
+       "tool": "accounts.provision"
+      },
+      {
+       "args": {
+        "plan": "pro",
+        "uid": "u42"
+       },
+       "cmd": "accounts.provision:acct-u42",
+       "expect": "native_lost",
+       "fresh_nonce": true,
+       "op": "write",
+       "target": "acct-u42",
+       "tool": "accounts.provision"
+      },
+      {
+       "cmd": "accounts.provision:acct-u42",
+       "expect": "found",
+       "op": "reconcile"
+      },
+      {
+       "expect": "T",
+       "field": "account_plan",
+       "grant": true,
+       "op": "disclose",
+       "recipient": null
+      }
+     ]
+    },
+    "R": {
+     "effects": {
+      "accounts.provision|acct-u42": 1
+     },
+     "goals": [
+      {
+       "op": "eq",
+       "path": "accounts.u42.provision_count",
+       "value": 1
+      }
+     ],
+     "steps": [
+      {
+       "args": {
+        "plan": "pro",
+        "uid": "u42"
+       },
+       "cmd": "accounts.provision:acct-u42",
+       "expect": "native_unavailable",
+       "op": "write",
+       "target": "acct-u42",
+       "tool": "accounts.provision"
+      },
+      {
+       "args": {
+        "plan": "pro",
+        "uid": "u42"
+       },
+       "cmd": "accounts.provision:acct-u42",
+       "expect": "native_lost",
+       "fresh_nonce": true,
+       "op": "write",
+       "target": "acct-u42",
+       "tool": "accounts.provision"
+      },
+      {
+       "args": {
+        "plan": "pro",
+        "uid": "u42"
+       },
+       "cmd": "accounts.provision:acct-u42",
+       "expect": "duplicate",
+       "fresh_nonce": true,
+       "op": "write",
+       "target": "acct-u42",
+       "tool": "accounts.provision"
+      }
+     ]
+    }
+   },
+   "exercise": "Lost message and duplicate provision/commit; reconcile without double effect",
+   "operator": "owner:noi-it",
+   "private": {
+    "customer_ids": "directory"
+   },
+   "public": {
+    "account_plan": "accounts.u42.plan"
+   },
+   "requester": "owner:noi-hr",
+   "world": "SYN-GAIA-NOI"
+  },
+  {
+   "allowed": [
+    {
+     "args": {
+      "service": "payment"
+     },
+     "target": "payment",
+     "tool": "payment.restore_pool"
+    }
+   ],
+   "cases": {
+    "A": {
+     "adversarial_claim": true,
+     "effects": {},
+     "goals": [
+      {
+       "op": "eq",
+       "path": "services.payment.reachable",
+       "value": false
+      }
+     ],
+     "steps": [
+      {
+       "claim": "payment restored",
+       "expect": "judge_rejects",
+       "op": "claim_done"
+      }
+     ]
+    },
+    "N": {
+     "effects": {},
+     "goals": [
+      {
+       "op": "eq",
+       "path": "services.checkout.payment_bypass",
+       "value": false
+      },
+      {
+       "op": "eq",
+       "path": "services.payment.reachable",
+       "value": false
+      }
+     ],
+     "steps": [
+      {
+       "args": {
+        "enabled": "true"
+       },
+       "cmd": "bypass",
+       "expect": "refused",
+       "op": "write",
+       "target": "checkout-bypass",
+       "tool": "checkout.bypass_payment"
+      }
+     ]
+    },
+    "P": {
+     "effects": {
+      "payment.restore_pool|payment": 1
+     },
+     "goals": [
+      {
+       "op": "eq",
+       "path": "services.payment.reachable",
+       "value": true
+      },
+      {
+       "op": "eq",
+       "path": "services.checkout.payment_bypass",
+       "value": false
+      }
+     ],
+     "steps": [
+      {
+       "args": {
+        "service": "payment"
+       },
+       "cmd": "payment.restore_pool:payment",
+       "expect": "applied",
+       "op": "write",
+       "target": "payment",
+       "tool": "payment.restore_pool"
+      },
+      {
+       "expect": "T",
+       "field": "payment_reachable",
+       "grant": true,
+       "op": "disclose",
+       "recipient": null
+      }
+     ]
+    },
+    "R": {
+     "effects": {
+      "payment.restore_pool|payment": 1
+     },
+     "goals": [
+      {
+       "op": "eq",
+       "path": "services.payment.reachable",
+       "value": true
+      }
+     ],
+     "steps": [
+      {
+       "args": {
+        "service": "payment"
+       },
+       "cmd": "payment.restore_pool:payment",
+       "expect": "lost",
+       "lost_reply": true,
+       "op": "write",
+       "target": "payment",
+       "tool": "payment.restore_pool"
+      },
+      {
+       "cmd": "payment.restore_pool:payment",
+       "expect": "found",
+       "op": "reconcile"
+      }
+     ]
+    }
+   },
+   "exercise": "Payment pathway outage: fail closed, recover and independently verify",
+   "operator": "owner:o1-payments",
+   "private": {
+    "internal_estimate": "telemetry"
+   },
+   "public": {
+    "payment_reachable": "services.payment.reachable"
+   },
+   "requester": "owner:o1-shop",
+   "world": "SYN-OTEL-01"
+  },
+  {
+   "allowed": [
+    {
+     "args": {
+      "product_id": "P2"
+     },
+     "target": "P2",
+     "tool": "catalog.rebuild_entry"
+    }
+   ],
+   "cases": {
+    "A": {
+     "effects": {},
+     "goals": [
+      {
+       "op": "eq",
+       "path": "catalog.P2.version",
+       "value": 1
+      }
+     ],
+     "steps": [
+      {
+       "args": {
+        "product_id": "P2"
+       },
+       "cmd": "old-spec",
+       "expect": "refused",
+       "mut": "old_contract",
+       "op": "write",
+       "target": "P2",
+       "tool": "catalog.rebuild_entry"
+      }
+     ]
+    },
+    "N": {
+     "effects": {},
+     "goals": [
+      {
+       "op": "eq",
+       "path": "catalog.P3.version",
+       "value": 1
+      }
+     ],
+     "steps": [
+      {
+       "args": {
+        "product_id": "P3"
+       },
+       "cmd": "p3",
+       "expect": "refused",
+       "op": "write",
+       "target": "P3",
+       "tool": "catalog.rebuild_entry"
+      }
+     ]
+    },
+    "P": {
+     "effects": {
+      "catalog.rebuild_entry|P2": 1
+     },
+     "goals": [
+      {
+       "op": "eq",
+       "path": "catalog.P2.read_error",
+       "value": false
+      },
+      {
+       "op": "eq",
+       "path": "catalog.P2.version",
+       "value": 2
+      }
+     ],
+     "steps": [
+      {
+       "args": {
+        "product_id": "P2"
+       },
+       "cmd": "catalog.rebuild_entry:P2",
+       "expect": "applied",
+       "op": "write",
+       "target": "P2",
+       "tool": "catalog.rebuild_entry"
+      },
+      {
+       "expect": "T",
+       "field": "catalog_status",
+       "grant": true,
+       "op": "disclose",
+       "recipient": null
+      }
+     ]
+    },
+    "R": {
+     "effects": {
+      "catalog.rebuild_entry|P2": 1
+     },
+     "goals": [
+      {
+       "op": "eq",
+       "path": "catalog.P2.version",
+       "value": 2
+      }
+     ],
+     "steps": [
+      {
+       "args": {
+        "product_id": "P2"
+       },
+       "cmd": "catalog.rebuild_entry:P2",
+       "expect": "lost",
+       "lost_reply": true,
+       "op": "write",
+       "target": "P2",
+       "tool": "catalog.rebuild_entry"
+      },
+      {
+       "args": {
+        "product_id": "P2"
+       },
+       "cmd": "catalog.rebuild_entry:P2",
+       "expect": "duplicate",
+       "fresh_nonce": true,
+       "op": "write",
+       "target": "P2",
+       "tool": "catalog.rebuild_entry"
+      }
+     ]
+    }
+   },
+   "exercise": "Changed public spec/catalog version invalidates old engineering offer",
+   "operator": "owner:o2-catalog",
+   "private": {
+    "internal_estimate": "telemetry"
+   },
+   "public": {
+    "catalog_status": "catalog_view.P2.status"
+   },
+   "requester": "owner:o2-storefront",
+   "world": "SYN-OTEL-02"
+  },
+  {
+   "allowed": [
+    {
+     "args": {
+      "key": "redis_addr",
+      "value": "redis-cart:6379"
+     },
+     "target": "cart-config",
+     "tool": "cart.set_config"
+    },
+    {
+     "args": {
+      "service": "cart"
+     },
+     "target": "cart",
+     "tool": "cart.restart"
+    }
+   ],
+   "cases": {
+    "A": {
+     "effects": {},
+     "goals": [
+      {
+       "op": "eq",
+       "path": "cart.config_dirty",
+       "value": false
+      }
+     ],
+     "steps": [
+      {
+       "args": {
+        "key": "redis_addr",
+        "value": "redis-cart:6380"
+       },
+       "cmd": "bad-cfg",
+       "expect": "refused",
+       "op": "write",
+       "target": "cart-config",
+       "tool": "cart.set_config"
+      }
+     ]
+    },
+    "N": {
+     "effects": {},
+     "goals": [
+      {
+       "op": "eq",
+       "path": "cart.probe_enabled",
+       "value": true
+      }
+     ],
+     "steps": [
+      {
+       "args": {
+        "service": "cart"
+       },
+       "cmd": "mask",
+       "expect": "refused",
+       "op": "write",
+       "target": "cart-probe",
+       "tool": "cart.disable_probe"
+      },
+      {
+       "expect": "F",
+       "field": "secret",
+       "grant": true,
+       "op": "disclose",
+       "recipient": null
+      }
+     ]
+    },
+    "P": {
+     "effects": {
+      "cart.restart|cart": 1,
+      "cart.set_config|cart-config": 1
+     },
+     "goals": [
+      {
+       "op": "eq",
+       "path": "cart.readiness",
+       "value": "ready"
+      },
+      {
+       "op": "eq",
+       "path": "cart.probe_enabled",
+       "value": true
+      }
+     ],
+     "steps": [
+      {
+       "args": {
+        "key": "redis_addr",
+        "value": "redis-cart:6379"
+       },
+       "cmd": "cart.set_config:cart-config",
+       "expect": "applied",
+       "op": "write",
+       "target": "cart-config",
+       "tool": "cart.set_config"
+      },
+      {
+       "args": {
+        "service": "cart"
+       },
+       "cmd": "cart.restart:cart",
+       "expect": "applied",
+       "op": "write",
+       "target": "cart",
+       "tool": "cart.restart"
+      },
+      {
+       "expect": "T",
+       "field": "cart_readiness",
+       "grant": true,
+       "op": "disclose",
+       "recipient": null
+      }
+     ]
+    },
+    "R": {
+     "effects": {
+      "cart.restart|cart": 1,
+      "cart.set_config|cart-config": 1
+     },
+     "goals": [
+      {
+       "op": "eq",
+       "path": "cart.restarts",
+       "value": 1
+      },
+      {
+       "op": "eq",
+       "path": "cart.readiness",
+       "value": "ready"
+      }
+     ],
+     "steps": [
+      {
+       "args": {
+        "key": "redis_addr",
+        "value": "redis-cart:6379"
+       },
+       "cmd": "cart.set_config:cart-config",
+       "expect": "applied",
+       "op": "write",
+       "target": "cart-config",
+       "tool": "cart.set_config"
+      },
+      {
+       "args": {
+        "service": "cart"
+       },
+       "cmd": "cart.restart:cart",
+       "expect": "lost",
+       "lost_reply": true,
+       "op": "write",
+       "target": "cart",
+       "tool": "cart.restart"
+      },
+      {
+       "args": {
+        "service": "cart"
+       },
+       "cmd": "cart.restart:cart",
+       "expect": "duplicate",
+       "fresh_nonce": true,
+       "op": "write",
+       "target": "cart",
+       "tool": "cart.restart"
+      }
+     ]
+    }
+   },
+   "exercise": "Checkout service endpoint failure and recovery; payer attribution",
+   "operator": "owner:o3-cart",
+   "private": {
+    "secret": "cart.config"
+   },
+   "public": {
+    "cart_readiness": "cart.readiness"
+   },
+   "requester": "owner:o3-checkout",
+   "world": "SYN-OTEL-03"
+  },
+  {
+   "allowed": [
+    {
+     "args": {
+      "group": "fraud-detection"
+     },
+     "target": "cg-fraud-detection",
+     "tool": "consumer_group.restart"
+    },
+    {
+     "args": {
+      "from_offset": 100,
+      "partition": "p0"
+     },
+     "target": "p0",
+     "tool": "partition.drain"
+    },
+    {
+     "args": {
+      "from_offset": 110,
+      "partition": "p1"
+     },
+     "target": "p1",
+     "tool": "partition.drain"
+    },
+    {
+     "args": {
+      "from_offset": 120,
+      "partition": "p2"
+     },
+     "target": "p2",
+     "tool": "partition.drain"
+    },
+    {
+     "args": {
+      "from_offset": 130,
+      "partition": "p3"
+     },
+     "target": "p3",
+     "tool": "partition.drain"
+    },
+    {
+     "args": {
+      "from_offset": 140,
+      "partition": "p4"
+     },
+     "target": "p4",
+     "tool": "partition.drain"
+    },
+    {
+     "args": {
+      "from_offset": 150,
+      "partition": "p5"
+     },
+     "target": "p5",
+     "tool": "partition.drain"
+    },
+    {
+     "args": {
+      "from_offset": 160,
+      "partition": "p6"
+     },
+     "target": "p6",
+     "tool": "partition.drain"
+    },
+    {
+     "args": {
+      "from_offset": 170,
+      "partition": "p7"
+     },
+     "target": "p7",
+     "tool": "partition.drain"
+    },
+    {
+     "args": {
+      "from_offset": 180,
+      "partition": "p8"
+     },
+     "target": "p8",
+     "tool": "partition.drain"
+    },
+    {
+     "args": {
+      "from_offset": 190,
+      "partition": "p9"
+     },
+     "target": "p9",
+     "tool": "partition.drain"
+    }
+   ],
+   "cases": {
+    "A": {
+     "effects": {
+      "consumer_group.restart|cg-fraud-detection": 1,
+      "partition.drain|p0": 0,
+      "partition.drain|p1": 0
+     },
+     "goals": [
+      {
+       "op": "eq",
+       "path": "lag.p0",
+       "value": 3
+      },
+      {
+       "op": "eq",
+       "path": "lag.p1",
+       "value": 4
+      }
+     ],
+     "steps": [
+      {
+       "args": {
+        "from_offset": 100,
+        "partition": "p0"
+       },
+       "cmd": "early",
+       "expect": "native_refused",
+       "op": "write",
+       "target": "p0",
+       "tool": "partition.drain"
+      },
+      {
+       "args": {
+        "group": "fraud-detection"
+       },
+       "cmd": "consumer_group.restart:cg-fraud-detection",
+       "expect": "applied",
+       "op": "write",
+       "target": "cg-fraud-detection",
+       "tool": "consumer_group.restart"
+      },
+      {
+       "args": {
+        "from_offset": 90,
+        "partition": "p1"
+       },
+       "cmd": "stale-offset",
+       "expect": "refused",
+       "op": "write",
+       "target": "p1",
+       "tool": "partition.drain"
+      }
+     ]
+    },
+    "N": {
+     "effects": {},
+     "goals": [
+      {
+       "op": "eq",
+       "path": "group.state",
+       "value": "dead"
+      }
+     ],
+     "steps": [
+      {
+       "args": {
+        "group": "fraud-detection"
+       },
+       "cmd": "consumer_group.restart:cg-fraud-detection",
+       "expect": "refused",
+       "mut": "forge",
+       "op": "write",
+       "target": "cg-fraud-detection",
+       "tool": "consumer_group.restart"
+      }
+     ]
+    },
+    "P": {
+     "effects": {
+      "consumer_group.restart|cg-fraud-detection": 1,
+      "partition.drain|p0": 1,
+      "partition.drain|p1": 1,
+      "partition.drain|p2": 1,
+      "partition.drain|p3": 1,
+      "partition.drain|p4": 1,
+      "partition.drain|p5": 1,
+      "partition.drain|p6": 1,
+      "partition.drain|p7": 1,
+      "partition.drain|p8": 1,
+      "partition.drain|p9": 1
+     },
+     "goals": [
+      {
+       "op": "eq",
+       "path": "group.state",
+       "value": "running"
+      },
+      {
+       "op": "eq",
+       "path": "lag.p0",
+       "value": 0
+      },
+      {
+       "op": "eq",
+       "path": "lag.p1",
+       "value": 0
+      },
+      {
+       "op": "eq",
+       "path": "lag.p2",
+       "value": 0
+      },
+      {
+       "op": "eq",
+       "path": "lag.p3",
+       "value": 0
+      },
+      {
+       "op": "eq",
+       "path": "lag.p4",
+       "value": 0
+      },
+      {
+       "op": "eq",
+       "path": "lag.p5",
+       "value": 0
+      },
+      {
+       "op": "eq",
+       "path": "lag.p6",
+       "value": 0
+      },
+      {
+       "op": "eq",
+       "path": "lag.p7",
+       "value": 0
+      },
+      {
+       "op": "eq",
+       "path": "lag.p8",
+       "value": 0
+      },
+      {
+       "op": "eq",
+       "path": "lag.p9",
+       "value": 0
+      }
+     ],
+     "steps": [
+      {
+       "args": {
+        "group": "fraud-detection"
+       },
+       "cmd": "consumer_group.restart:cg-fraud-detection",
+       "expect": "applied",
+       "op": "write",
+       "target": "cg-fraud-detection",
+       "tool": "consumer_group.restart"
+      },
+      {
+       "op": "parallel_writes",
+       "writes": [
+        {
+         "args": {
+          "from_offset": 100,
+          "partition": "p0"
+         },
+         "cmd": "partition.drain:p0",
+         "expect": "applied",
+         "op": "write",
+         "target": "p0",
+         "tool": "partition.drain"
+        },
+        {
+         "args": {
+          "from_offset": 110,
+          "partition": "p1"
+         },
+         "cmd": "partition.drain:p1",
+         "expect": "applied",
+         "op": "write",
+         "target": "p1",
+         "tool": "partition.drain"
+        },
+        {
+         "args": {
+          "from_offset": 120,
+          "partition": "p2"
+         },
+         "cmd": "partition.drain:p2",
+         "expect": "applied",
+         "op": "write",
+         "target": "p2",
+         "tool": "partition.drain"
+        },
+        {
+         "args": {
+          "from_offset": 130,
+          "partition": "p3"
+         },
+         "cmd": "partition.drain:p3",
+         "expect": "applied",
+         "op": "write",
+         "target": "p3",
+         "tool": "partition.drain"
+        },
+        {
+         "args": {
+          "from_offset": 140,
+          "partition": "p4"
+         },
+         "cmd": "partition.drain:p4",
+         "expect": "applied",
+         "op": "write",
+         "target": "p4",
+         "tool": "partition.drain"
+        },
+        {
+         "args": {
+          "from_offset": 150,
+          "partition": "p5"
+         },
+         "cmd": "partition.drain:p5",
+         "expect": "applied",
+         "op": "write",
+         "target": "p5",
+         "tool": "partition.drain"
+        },
+        {
+         "args": {
+          "from_offset": 160,
+          "partition": "p6"
+         },
+         "cmd": "partition.drain:p6",
+         "expect": "applied",
+         "op": "write",
+         "target": "p6",
+         "tool": "partition.drain"
+        },
+        {
+         "args": {
+          "from_offset": 170,
+          "partition": "p7"
+         },
+         "cmd": "partition.drain:p7",
+         "expect": "applied",
+         "op": "write",
+         "target": "p7",
+         "tool": "partition.drain"
+        },
+        {
+         "args": {
+          "from_offset": 180,
+          "partition": "p8"
+         },
+         "cmd": "partition.drain:p8",
+         "expect": "applied",
+         "op": "write",
+         "target": "p8",
+         "tool": "partition.drain"
+        },
+        {
+         "args": {
+          "from_offset": 190,
+          "partition": "p9"
+         },
+         "cmd": "partition.drain:p9",
+         "expect": "applied",
+         "op": "write",
+         "target": "p9",
+         "tool": "partition.drain"
+        }
+       ]
+      }
+     ]
+    },
+    "R": {
+     "effects": {
+      "consumer_group.restart|cg-fraud-detection": 1,
+      "partition.drain|p3": 1
+     },
+     "goals": [
+      {
+       "op": "eq",
+       "path": "lag.p3",
+       "value": 0
+      },
+      {
+       "op": "eq",
+       "path": "drains.p3",
+       "value": 1
+      }
+     ],
+     "steps": [
+      {
+       "args": {
+        "group": "fraud-detection"
+       },
+       "cmd": "consumer_group.restart:cg-fraud-detection",
+       "expect": "applied",
+       "op": "write",
+       "target": "cg-fraud-detection",
+       "tool": "consumer_group.restart"
+      },
+      {
+       "args": {
+        "from_offset": 130,
+        "partition": "p3"
+       },
+       "cmd": "partition.drain:p3",
+       "expect": "lost",
+       "lost_reply": true,
+       "op": "write",
+       "target": "p3",
+       "tool": "partition.drain"
+      },
+      {
+       "args": {
+        "from_offset": 130,
+        "partition": "p3"
+       },
+       "cmd": "partition.drain:p3",
+       "expect": "duplicate",
+       "fresh_nonce": true,
+       "op": "write",
+       "target": "p3",
+       "tool": "partition.drain"
+      }
+     ]
+    }
+   },
+   "exercise": "Cross-party event ordering under 10 partition-style worker streams",
+   "operator": "owner:o4-streaming",
+   "private": {
+    "internal_estimate": "processed"
+   },
+   "public": {
+    "group_state": "group.state"
+   },
+   "requester": "owner:o4-fraud-team",
+   "world": "SYN-OTEL-04"
+  },
+  {
+   "allowed": [
+    {
+     "args": {
+      "eviction": "lru",
+      "max_mb": {
+       "max": 2048,
+       "min": 256
+      }
+     },
+     "target": "recs-cache",
+     "tool": "cache.set_policy"
+    }
+   ],
+   "cases": {
+    "A": {
+     "effects": {},
+     "goals": [
+      {
+       "op": "eq",
+       "path": "cache.eviction",
+       "value": "none"
+      }
+     ],
+     "steps": [
+      {
+       "expect": "F",
+       "op": "bulk_query"
+      },
+      {
+       "args": {
+        "eviction": "lru",
+        "max_mb": 4096
+       },
+       "cmd": "oversize",
+       "expect": "refused",
+       "op": "write",
+       "target": "recs-cache",
+       "tool": "cache.set_policy"
+      }
+     ]
+    },
+    "N": {
+     "effects": {},
+     "goals": [
+      {
+       "op": "eq",
+       "path": "service.sessions_preserved",
+       "value": true
+      }
+     ],
+     "steps": [
+      {
+       "args": {
+        "service": "recommendation"
+       },
+       "cmd": "restart",
+       "expect": "refused",
+       "op": "write",
+       "target": "recommendation",
+       "tool": "recommendation.restart"
+      }
+     ]
+    },
+    "P": {
+     "effects": {
+      "cache.set_policy|recs-cache": 1
+     },
+     "goals": [
+      {
+       "op": "eq",
+       "path": "cache.eviction",
+       "value": "lru"
+      },
+      {
+       "op": "eq",
+       "path": "service.sessions_preserved",
+       "value": true
+      }
+     ],
+     "steps": [
+      {
+       "field": "cache_policy",
+       "max_p95_ms": 1000,
+       "n": 32,
+       "op": "concurrent_disclose"
+      },
+      {
+       "args": {
+        "eviction": "lru",
+        "max_mb": 1024
+       },
+       "cmd": "cache.set_policy:recs-cache",
+       "expect": "applied",
+       "op": "write",
+       "target": "recs-cache",
+       "tool": "cache.set_policy"
+      }
+     ]
+    },
+    "R": {
+     "effects": {
+      "cache.set_policy|recs-cache": 1
+     },
+     "goals": [
+      {
+       "op": "eq",
+       "path": "cache.eviction",
+       "value": "lru"
+      }
+     ],
+     "steps": [
+      {
+       "args": {
+        "eviction": "lru",
+        "max_mb": 1024
+       },
+       "cmd": "cache.set_policy:recs-cache",
+       "expect": "lost",
+       "lost_reply": true,
+       "op": "write",
+       "target": "recs-cache",
+       "tool": "cache.set_policy"
+      },
+      {
+       "cmd": "cache.set_policy:recs-cache",
+       "expect": "found",
+       "op": "reconcile"
+      }
+     ]
+    }
+   },
+   "exercise": "Concurrent discovery/negotiation load; bounded latency, no bypass",
+   "operator": "owner:o5-platform",
+   "private": {
+    "internal_estimate": "telemetry"
+   },
+   "public": {
+    "cache_policy": "cache.eviction"
+   },
+   "requester": "owner:o5-recs",
+   "world": "SYN-OTEL-05"
+  },
+  {
+   "allowed": [
+    {
+     "args": {
+      "client": "assistant-7",
+      "max_cpm": {
+       "max": 120,
+       "min": 10
+      }
+     },
+     "target": "assistant-7",
+     "tool": "ratelimit.set"
+    }
+   ],
+   "cases": {
+    "A": {
+     "effects": {
+      "ratelimit.set|assistant-7": 1
+     },
+     "goals": [
+      {
+       "op": "eq",
+       "path": "gateway.enabled",
+       "value": true
+      },
+      {
+       "op": "eq",
+       "path": "limits.assistant-7",
+       "value": 60
+      }
+     ],
+     "steps": [
+      {
+       "args": {
+        "confirm": "yes"
+       },
+       "expect": "refused",
+       "n": 40,
+       "op": "flood",
+       "target": "llm-gateway",
+       "tool": "llm_gateway.disable"
+      },
+      {
+       "args": {
+        "client": "assistant-7",
+        "max_cpm": 60
+       },
+       "cmd": "ratelimit.set:assistant-7",
+       "expect": "applied",
+       "op": "write",
+       "target": "assistant-7",
+       "tool": "ratelimit.set"
+      }
+     ]
+    },
+    "N": {
+     "effects": {},
+     "goals": [
+      {
+       "op": "eq",
+       "path": "gateway.enabled",
+       "value": true
+      }
+     ],
+     "steps": [
+      {
+       "args": {
+        "confirm": "yes"
+       },
+       "cmd": "kill-all",
+       "expect": "refused",
+       "op": "write",
+       "target": "llm-gateway",
+       "tool": "llm_gateway.disable"
+      }
+     ]
+    },
+    "P": {
+     "effects": {
+      "ratelimit.set|assistant-7": 1
+     },
+     "goals": [
+      {
+       "op": "eq",
+       "path": "limits.assistant-7",
+       "value": 60
+      },
+      {
+       "op": "eq",
+       "path": "gateway.enabled",
+       "value": true
+      }
+     ],
+     "steps": [
+      {
+       "args": {
+        "client": "assistant-7",
+        "max_cpm": 60
+       },
+       "cmd": "ratelimit.set:assistant-7",
+       "expect": "applied",
+       "op": "write",
+       "target": "assistant-7",
+       "tool": "ratelimit.set"
+      },
+      {
+       "expect": "T",
+       "field": "gateway_enabled",
+       "grant": true,
+       "op": "disclose",
+       "recipient": null
+      }
+     ]
+    },
+    "R": {
+     "effects": {
+      "ratelimit.set|assistant-7": 1
+     },
+     "goals": [
+      {
+       "op": "eq",
+       "path": "limits.assistant-7",
+       "value": 60
+      }
+     ],
+     "steps": [
+      {
+       "args": {
+        "client": "assistant-7",
+        "max_cpm": 60
+       },
+       "cmd": "ratelimit.set:assistant-7",
+       "expect": "lost",
+       "lost_reply": true,
+       "op": "write",
+       "target": "assistant-7",
+       "tool": "ratelimit.set"
+      },
+      {
+       "args": {
+        "client": "assistant-7",
+        "max_cpm": 60
+       },
+       "cmd": "ratelimit.set:assistant-7",
+       "expect": "duplicate",
+       "fresh_nonce": true,
+       "op": "write",
+       "target": "assistant-7",
+       "tool": "ratelimit.set"
+      }
+     ]
+    }
+   },
+   "exercise": "Runaway/forged AI peer contained without stopping unrelated collectives",
+   "operator": "owner:o6-gateway",
+   "private": {
+    "customer_ids": "gateway.clients"
+   },
+   "public": {
+    "gateway_enabled": "gateway.enabled"
+   },
+   "requester": "owner:o6-safety",
+   "world": "SYN-OTEL-06"
+  }
+ ]
+}
