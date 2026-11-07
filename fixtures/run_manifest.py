@@ -1,4 +1,4 @@
-# SPDX-License-Identifier: Apache-2.0
+# SPDX-License-Identifier: PolyForm-Noncommercial-1.0.0
 """Build RUN_MANIFEST.json: frozen BEFORE any counted run (WO-LMF-001 step 5)."""
 import hashlib
 import json

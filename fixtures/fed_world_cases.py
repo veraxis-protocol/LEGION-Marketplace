@@ -1,4 +1,4 @@
-# SPDX-License-Identifier: Apache-2.0
+# SPDX-License-Identifier: PolyForm-Noncommercial-1.0.0
 # Copyright 2026 Veraxis. Independently authored federated exercises over the 13 pinned LEGION worlds.
 """Preregistered 13 x 4 federated world cases (P/N/R/A). Generates FED_WORLD_CASES.json.
 

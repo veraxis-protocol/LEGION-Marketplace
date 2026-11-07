@@ -15,4 +15,4 @@ All prices are synthetic fixture quotes. Manufacturing, qualification and delive
 PayPal Sandbox effects, when present, are labelled REAL_SANDBOX and are shown separately.
 
 ## License
-Apache-2.0 for files in this repository only; LEGION Core runtime dependency is PolyForm Noncommercial. See `NOTICE`.
+PolyForm Noncommercial License 1.0.0 (owner decision, 2026-11-07). Not an OSI open-source license. See `NOTICE`.
