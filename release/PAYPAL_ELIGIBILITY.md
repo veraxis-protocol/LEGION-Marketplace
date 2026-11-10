@@ -1,3 +1,8 @@
+> **Historical record (2026-11-07).** Superseded on 2026-11-09: the PayPal AI Hackathon entry is
+> [LEGION Deal Rescue](https://github.com/veraxis-protocol/LEGION-Deal-Rescue), licensed Apache-2.0, which uses this
+> repository as a pinned external dependency under its unchanged PolyForm Noncommercial 1.0.0 license. Whether the
+> organizers accept that dependency structure has not been ruled on. The text below is kept unchanged as the 2026-11-07 record.
+
 # PayPal hackathon eligibility — licensing status (2026-11-07)
 
 **Status: NOT MET as of 2026-11-07 (open-source condition).** No organizer adjudication obtained.
